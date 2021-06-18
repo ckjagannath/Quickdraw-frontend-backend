@@ -1,0 +1,33 @@
+<div class="container-fluid backgrnd pt-4">
+    <div class="row">
+        <div class="col-md-3 white-text">
+            <button class="class-back"><span routerLink="/home"><< Back</span></button>
+            <div class="white-text">
+                <ul>
+                    <li class="li-class mt-4">Draw an object from the below categories 
+                        and the model will guess it.</li>   
+                </ul>
+                <div class="row text-center">
+                    <div class="col">
+                        <app-butn></app-butn>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 text-center">
+            <h4 class="header my-3">Draw Inside this Canvas</h4>
+            <div class="row margin-class">
+                <canvas width="300px" height="300px" class="canvas" id="mycanvas"></canvas>
+            </div>
+            <span style="color: white;">{{result}}</span>
+        </div>
+        <div class="col-md-3 text-center">
+            <div>
+                <button class="custom-button confirm" (click)="save()"><b>Guess it</b></button>
+            </div>
+            <div>
+                <button class="custom-button mt-3 clear"><b>Clear Canvas</b></button>
+            </div>   
+        </div>
+    </div>
+</div>

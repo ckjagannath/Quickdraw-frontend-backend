@@ -1,0 +1,37 @@
+<div class="container-fluid backgrnd pt-4">
+    <div class="row">
+        <div class="col-md-3 white-text">
+            <button class="class-back"><span routerLink="/home"><< Back</span></button>
+            <div class="text-center py-2 mt-4 stepstoplay"><b>Steps to play</b></div>
+            <div class="white-text">
+                <ul>
+                    <li class="li-class mt-4">Choose one of the Labels provided.
+                        (For eg: Sun, Flower, Umbrella)</li>
+                    <li class="li-class mt-2">Draw inside the given Canvas area.</li>
+                    <li class="li-class mt-2">Press 'Confirm Selection'.</li>
+                    <li class="li-class mt-2">If you make a mistake while drawing, press 'Clear Selection'.</li> 
+                </ul>
+            </div>
+        </div>    
+        <div class="col-md-6 text-center">
+            <h4 class="header my-3">Draw Inside this Canvas</h4>
+            <div class="row margin-class">
+                <canvas width="300px" height="300px" class="canvas" id="mycanvas"></canvas>
+            </div>
+        </div>
+        <div class="col-md-3 text-center" >
+            <div class="text-center py-2 lastrow-style"><b>Choose from the Labels</b></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <app-butn (newItemEvent)="getClass($event)"></app-butn>
+                </div>
+            </div>
+            <div>
+                <button class="custom-button mt-3 confirm" (click)="saveImage()"><b>Confirm Selection</b></button>
+            </div>
+            <div>
+                <button class="custom-button mt-2 clear"><b>Clear Canvas</b></button>
+            </div>   
+        </div>
+    </div>
+</div>

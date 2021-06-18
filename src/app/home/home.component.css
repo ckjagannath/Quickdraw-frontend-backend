@@ -1,0 +1,48 @@
+.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 23px;
+    border: 2px solid #b0dc01;
+    background-color: #1b0448;
+    color:#b0dc01;
+    width: 280px;
+    font-size: 20px;
+    margin-top: 140px;
+}
+.button:focus{
+    background-color: #b0dc01 ;
+    color: #1b0448;
+}
+.header{
+    font-size: 60px;
+    color: white;
+}
+@media (max-width: 479px){
+    .Image{
+        background-image: url('src/assets/images/background.png');
+        margin-top: -48px;
+        height:100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #play{
+        margin-bottom: 30px;
+    }
+    .button{
+        margin-top: 80px;
+    }
+}
+    
+@media (min-width: 480px) {
+    .Image{
+        background-image: url('src/assets/images/background.png');
+        margin-top: -48px;
+        height:100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
