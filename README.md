@@ -2,26 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
-## Development server
+# Frontend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The frontend is built using angular. The entire website is modularised into butn, home, create-dataset and result components which can be found in the src folder.
 
-## Code scaffolding
+# Results
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://user-images.githubusercontent.com/67112280/122514686-f229e300-d029-11eb-96e2-a9281d76055c.png)
+![image](https://user-images.githubusercontent.com/67112280/122514845-34532480-d02a-11eb-93b2-5dc7bf8e5dd8.png) ![image](https://user-images.githubusercontent.com/67112280/122514935-52208980-d02a-11eb-874d-fb0393c341c7.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
