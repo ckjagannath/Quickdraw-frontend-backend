@@ -83,6 +83,7 @@ export class ResultComponent implements OnInit,AfterViewInit {
     })
     document.querySelector(".clear").addEventListener("click",()=>{
       this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+      document.querySelector("#result").innerHTML='';
     })
     this.body.addEventListener("touchstart",(e)=>{
       if (e.target==this.canvas){
