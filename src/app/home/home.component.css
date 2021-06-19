@@ -21,7 +21,7 @@
 }
 @media (max-width: 479px){
     .Image{
-        background-image: url('src/assets/images/background.png');
+        background-image: url('/assets/images/background.png');
         margin-top: -48px;
         height:100vh;
         background-position: center;
@@ -38,7 +38,7 @@
     
 @media (min-width: 480px) {
     .Image{
-        background-image: url('src/assets/images/background.png');
+        background-image: url('/assets/images/background.png');
         margin-top: -48px;
         height:100vh;
         background-position: center;
