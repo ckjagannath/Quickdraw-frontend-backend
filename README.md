@@ -6,10 +6,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 The frontend is built using angular. The entire website is modularised into butn, home, create-dataset and result components which can be found in the src folder.
 
-# Link 
-
-http://13.233.161.162/
-
 # Results
 
 ![image](https://user-images.githubusercontent.com/67112280/122514686-f229e300-d029-11eb-96e2-a9281d76055c.png)
